@@ -1,0 +1,32 @@
+{
+    "name" : "pdfmaker",
+    "version" : "0.0.0",
+    "main" : "lib/phantomjs-script.js",
+    "description" : "HTML to PDF workflow",
+    "homepage" : "https://github.com/timeinfeldt/pdfmaker",
+    "bugs" : "https://github.com/timeinfeldt/pdfmaker/issues",
+    "author" : {
+        "name" : "Tim Einfeldt",
+        "email" : ""
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/timeinfeldt/pdfmaker"
+    },
+    "license" : "MIT",
+    "files" : [
+        "lib"
+    ],
+    "keywords" : [
+        "pdfmaker",
+        "pdf"
+    ],
+    "devDependencies" : {
+    },
+    "scripts" : {
+    },
+    "bin" : {
+        "pdfmaker" : "lib/phantomjs-script.js"
+    },
+    "preferGlobal" : "true"
+}
