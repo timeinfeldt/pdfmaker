@@ -16,7 +16,7 @@ Have a look at `input/test.html`. Include `#global-hd` for a global header and `
 
 ## Example usage (OSX)
 
-`cat input/index.html | pdfmaker > output/test.pdf && open output/test.pdf`
+`cat input/test.html | pdfmaker > test.pdf && open test.pdf`
 
 
 ## License
